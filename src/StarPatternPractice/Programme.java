@@ -1,11 +1,7 @@
-package practice;
+package StarPatternPractice;
 
-import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Set;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Programme {
@@ -15,11 +11,12 @@ public static void main(String[] args) {
 	driver.get("https://www.google.com/");
 	String ab = driver.getTitle();
 	System.out.println(ab);
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+//	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 //Set<String> win = driver.getWindowHandles();
 //ArrayList<String> al=new ArrayList<>(win);
-//String s1 = al.get(1);
+//String s1 = al.get(0);
 //driver.switchTo().window(s1);
-	driver.findElement(By.xpath("//button[@class='M6CB1c rr4y5c']")).click();
+//	String text = driver.findElement(By.xpath("//button[text()='No thanks']")).getText();
+//System.out.println(text);
 }
 }
