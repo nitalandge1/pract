@@ -9,8 +9,8 @@ public static void main(String[] args) {
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\bhand\\Downloads\\chromedriver_win32\\chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.google.com/");
-	String ab = driver.getTitle();
-	System.out.println(ab);
+	String abc = driver.getTitle();
+	System.out.println(abc);
 //	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 //Set<String> win = driver.getWindowHandles();
 //ArrayList<String> al=new ArrayList<>(win);
